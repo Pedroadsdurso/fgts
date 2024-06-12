@@ -107,7 +107,7 @@
     function setUserName() {
         var queryParams = getQueryParams();
         var nome = queryParams.nome || 'Visitante'; // Define 'Visitante' como padrão caso não haja nome na URL
-        document.getElementById('nomeUsuario').textContent = nome;
+        document.getElementById('nome').textContent = nome;
         document.getElementById('nomeCurto').textContent = nome.split(' ')[0]; // Exibe apenas o primeiro nome
     }
 
